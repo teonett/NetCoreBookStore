@@ -1,0 +1,476 @@
+[
+  {
+    "Code": 9780062355300,
+    "Name": "Alchemist",
+    "Author": "Paulo Coelho",
+    "Price": 88.25
+  },
+  {
+    "Code": 9780141357034,
+    "Name": "All Bright",
+    "Author": "Places Jennifer Niven",
+    "Price": 137.25
+  },
+  {
+    "Code": 9781489465245,
+    "Name": "Arcadia",
+    "Author": "Di Morrissey",
+    "Price": 88.25
+  },
+  {
+    "Code": 9780099583455,
+    "Name": "Arctic Dreams",
+    "Author": "Barry Lopez",
+    "Price": 110.25
+  },
+  {
+    "Code": 9780007420124,
+    "Name": "Art War",
+    "Author": "Sun Tzu",
+    "Price": 145.25
+  },
+  {
+    "Code": 9780552996181,
+    "Name": "Behind Scenes At Museum",
+    "Author": "Kate Atkinson",
+    "Price": 138.25
+  },
+  {
+    "Code": 9781543956504,
+    "Name": "Besa Po",
+    "Author": "Hana Noka",
+    "Price": 124.25
+  },
+  {
+    "Code": 9780575081253,
+    "Name": "Broken Angels",
+    "Author": "Richard Morgan",
+    "Price": 47.25
+  },
+  {
+    "Code": 9781786495259,
+    "Name": "Call Me By Your Name",
+    "Author": "Andre Aciman",
+    "Price": 87.25
+  },
+  {
+    "Code": 9780375714832,
+    "Name": "Complete Persepolis",
+    "Author": "Marjane Satrapi",
+    "Price": 94.25
+  },
+  {
+    "Code": 9781941147665,
+    "Name": "Cook Valancourt 20th Century Classics",
+    "Author": "Harry Kressing",
+    "Price": 167.25
+  },
+  {
+    "Code": 9780143119678,
+    "Name": "Discovery Witches",
+    "Author": "Deborah Harkness",
+    "Price": 174.25
+  },
+  {
+    "Code": 9780007420421,
+    "Name": "Divergent",
+    "Author": "Veronica Roth",
+    "Price": 186.25
+  },
+  {
+    "Code": 9781840221664,
+    "Name": "Divine Comedy",
+    "Author": "Dante",
+    "Price": 136.25
+  },
+  {
+    "Code": 9780008172145,
+    "Name": "Eleanor Oliphant is Completely Fine",
+    "Author": "Gail Honeyman",
+    "Price": 157.25
+  },
+  {
+    "Code": 9780356503820,
+    "Name": "Eye World",
+    "Author": "Robert Jordan",
+    "Price": 146.25
+  },
+  {
+    "Code": 9781447253471,
+    "Name": "Eyrie",
+    "Author": "Tim Winton",
+    "Price": 60.25
+  },
+  {
+    "Code": 9780141183848,
+    "Name": "Fictions",
+    "Author": "Jorge Borges",
+    "Price": 102.25
+  },
+  {
+    "Code": 9781849821162,
+    "Name": "First Blood",
+    "Author": "Claire Rayner",
+    "Price": 152.25
+  },
+  {
+    "Code": 9780241972939,
+    "Name": "Forty Rules Love",
+    "Author": "Elif Shafak",
+    "Price": 51.25
+  },
+  {
+    "Code": 9780765348784,
+    "Name": "Gardens Moon",
+    "Author": "Steven Erikson",
+    "Price": 105.25
+  },
+  {
+    "Code": 9780007498772,
+    "Name": "Golden Notebook",
+    "Author": "Doris Lessing",
+    "Price": 125.25
+  },
+  {
+    "Code": 9780349139630,
+    "Name": "Goldfinch",
+    "Author": "Donna Tartt",
+    "Price": 193.25
+  },
+  {
+    "Code": 9780141198897,
+    "Name": "Great Expectations",
+    "Author": "Charles Dickens",
+    "Price": 119.25
+  },
+  {
+    "Code": 9780141039282,
+    "Name": "Help",
+    "Author": "Kathryn Stockett",
+    "Price": 75.25
+  },
+  {
+    "Code": 9780099528562,
+    "Name": "House Spirits",
+    "Author": "Isabel Allende",
+    "Price": 140.25
+  },
+  {
+    "Code": 9780545265355,
+    "Name": "Hunger Games Trilogy Box Set",
+    "Author": "Suzanne Collins",
+    "Price": 86.25
+  },
+  {
+    "Code": 9781471156267,
+    "Name": "It Ends With Us",
+    "Author": "Colleen Hoover",
+    "Price": 74.25
+  },
+  {
+    "Code": 9781853260209,
+    "Name": "Jane Eyre",
+    "Author": "Charlotte Bronte",
+    "Price": 71.25
+  },
+  {
+    "Code": 9781471156229,
+    "Name": "Japanese Lover",
+    "Author": "Isabel Allende",
+    "Price": 174.25
+  },
+  {
+    "Code": 9781509808694,
+    "Name": "Kane Abel",
+    "Author": "Jeffrey Archer",
+    "Price": 85.25
+  },
+  {
+    "Code": 9780099549482,
+    "Name": "Kill Mockingbird",
+    "Author": "Harper Lee",
+    "Price": 135.25
+  },
+  {
+    "Code": 9781526604736,
+    "Name": "Kite Runner",
+    "Author": "Khaled Hosseini",
+    "Price": 166.25
+  },
+  {
+    "Code": 9780340978504,
+    "Name": "Last Lecture",
+    "Author": "Randy Pausch",
+    "Price": 117.25
+  },
+  {
+    "Code": 9780552779685,
+    "Name": "Life After Life",
+    "Author": "Kate Atkinson",
+    "Price": 159.25
+  },
+  {
+    "Code": 9780007323128,
+    "Name": "Lion Witch Wardrobe",
+    "Author": "C S Lewis",
+    "Price": 106.25
+  },
+  {
+    "Code": 9781447294832,
+    "Name": "Little Life",
+    "Author": "Hanya Yanagihara",
+    "Price": 116.25
+  },
+  {
+    "Code": 9780147514011,
+    "Name": "Little Women Louisa",
+    "Author": "May Alcott",
+    "Price": 107.25
+  },
+  {
+    "Code": 9780261102385,
+    "Name": "Lord Rings",
+    "Author": "J R R Tolkien",
+    "Price": 171.25
+  },
+  {
+    "Code": 9781785655685,
+    "Name": "Lost Boy",
+    "Author": "Christina Henry",
+    "Price": 151.25
+  },
+  {
+    "Code": 9780141325491,
+    "Name": "Lost Hero Heroes Olympus Book 1",
+    "Author": "Rick Riordan",
+    "Price": 50.25
+  },
+  {
+    "Code": 9780552778053,
+    "Name": "Magic Reality",
+    "Author": "Richard Dawkins",
+    "Price": 158.25
+  },
+  {
+    "Code": 9780099478355,
+    "Name": "Magus",
+    "Author": "John Fowles",
+    "Price": 92.25
+  },
+  {
+    "Code": 9780140455465,
+    "Name": "Master Margarita",
+    "Author": "Mikhail Bulgakov",
+    "Price": 128.25
+  },
+  {
+    "Code": 9781908435132,
+    "Name": "Maze Runner",
+    "Author": "James Dashner",
+    "Price": 48.25
+  },
+  {
+    "Code": 9780099771517,
+    "Name": "Memoirs Geisha",
+    "Author": "Arthur Golden",
+    "Price": 155.25
+  },
+  {
+    "Code": 9780141023571,
+    "Name": "Mice Men",
+    "Author": "John Steinbeck",
+    "Price": 141.25
+  },
+  {
+    "Code": 9781406307627,
+    "Name": "Mortal Instruments 1 City Bones",
+    "Author": "Cassandra Clare",
+    "Price": 178.25
+  },
+  {
+    "Code": 9781472218902,
+    "Name": "Mosquitoland",
+    "Author": "David Arnold",
+    "Price": 78.25
+  },
+  {
+    "Code": 9781568364278,
+    "Name": "Musashi Epic Novel Samurai Era",
+    "Author": "Eiji Yoshikawa",
+    "Price": 162.25
+  },
+  {
+    "Code": 9780099466031,
+    "Name": "Name Rose",
+    "Author": "Umberto Eco",
+    "Price": 83.25
+  },
+  {
+    "Code": 9780575081406,
+    "Name": "Name Wind",
+    "Author": "Patrick Rothfuss",
+    "Price": 93.25
+  },
+  {
+    "Code": 9780140386332,
+    "Name": "Neverending Story",
+    "Author": "Michael Ende",
+    "Price": 132.25
+  },
+  {
+    "Code": 9780316201285,
+    "Name": "Night Angel",
+    "Author": "Brent Weeks",
+    "Price": 146.25
+  },
+  {
+    "Code": 9780440212560,
+    "Name": "Outlander",
+    "Author": "Diana Gabaldon",
+    "Price": 159.25
+  },
+  {
+    "Code": 9781786891556,
+    "Name": "Outpost",
+    "Author": "Dan Richards",
+    "Price": 115.25
+  },
+  {
+    "Code": 9781784708245,
+    "Name": "Overstory",
+    "Author": "Richard Powers",
+    "Price": 191.25
+  },
+  {
+    "Code": 9780199538492,
+    "Name": "Pair Blue Eyes",
+    "Author": "Thomas Hardy",
+    "Price": 44.25
+  },
+  {
+    "Code": 9781472154507,
+    "Name": "Peace Like River",
+    "Author": "Leif Enger",
+    "Price": 68.25
+  },
+  {
+    "Code": 9780141199498,
+    "Name": "Picture Dorian Gray",
+    "Author": "Oscar Wilde",
+    "Price": 79.25
+  },
+  {
+    "Code": 9780062213709,
+    "Name": "Poisonwood Bible",
+    "Author": "Barbara Kingsolver",
+    "Price": 109.25
+  },
+  {
+    "Code": 9780141199122,
+    "Name": "Portrait Lady",
+    "Author": "Henry James",
+    "Price": 53.25
+  },
+  {
+    "Code": 9780143004554,
+    "Name": "Power One",
+    "Author": "Bryce Courtenay",
+    "Price": 85.25
+  },
+  {
+    "Code": 9780141199078,
+    "Name": "Pride Prejudice",
+    "Author": "Jane Austen",
+    "Price": 178.25
+  },
+  {
+    "Code": 9780571234493,
+    "Name": "Red Earth Pouring Rain",
+    "Author": "Vikram Chandra",
+    "Price": 58.25
+  },
+  {
+    "Code": 9780999393819,
+    "Name": "Remembering Shanghai",
+    "Author": "Claire Chao",
+    "Price": 135.25
+  },
+  {
+    "Code": 9780999735213,
+    "Name": "Saviors Champion",
+    "Author": "Jenna Moreci",
+    "Price": 126.25
+  },
+  {
+    "Code": 9780425232095,
+    "Name": "School Essential Ingredients",
+    "Author": "Erica Bauermeister",
+    "Price": 75.25
+  },
+  {
+    "Code": 9780141046426,
+    "Name": "Secret Diary Adrian Mole Aged 13 3 4",
+    "Author": "Sue Townsend",
+    "Price": 86.25
+  },
+  {
+    "Code": 9780747266839,
+    "Name": "Secret Life Bees",
+    "Author": "Sue Monk Kidd",
+    "Price": 179.25
+  },
+  {
+    "Code": 9780099570332,
+    "Name": "Sense Ending",
+    "Author": "Julian Barnes",
+    "Price": 140.25
+  },
+  {
+    "Code": 9781780622286,
+    "Name": "Six Crows",
+    "Author": "Leigh Bardugo",
+    "Price": 87.25
+  },
+  {
+    "Code": 9781328901064,
+    "Name": "Special Ones",
+    "Author": "Em Bailey",
+    "Price": 184.25
+  },
+  {
+    "Code": 9781509858637,
+    "Name": "This is Going Hurt",
+    "Author": "Adam Kay",
+    "Price": 190.25
+  },
+  {
+    "Code": 9781599906959,
+    "Name": "Throne Glass",
+    "Author": "Sarah J Maas",
+    "Price": 176.25
+  },
+  {
+    "Code": 9780007350452,
+    "Name": "Time My Life",
+    "Author": "Cecelia Ahern",
+    "Price": 99.25
+  },
+  {
+    "Code": 9780099464464,
+    "Name": "Time Travelers Wife",
+    "Author": "Audrey Niffenegger",
+    "Price": 172.25
+  },
+  {
+    "Code": 9780199559190,
+    "Name": "Washington Square",
+    "Author": "Henry James",
+    "Price": 76.25
+  },
+  {
+    "Code": 9780061350962,
+    "Name": "Wicked",
+    "Author": "Gregory Maguire",
+    "Price": 49.25
+  }
+]
