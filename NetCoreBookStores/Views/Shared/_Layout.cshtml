@@ -18,14 +18,8 @@
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
+        <div class="container" style="padding:25px">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
                 <a asp-area="" asp-controller="Store" asp-action="Carrossel" class="navbar-brand"></a>
             </div>
             <div class="navbar-collapse collapse">
@@ -35,7 +29,7 @@
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer style="text-align:left">
+        <footer style="text-align:left; position:absolute; bottom:0; width:100%; padding-top: 25px; padding-bottom: 25px; grid-row-start: 2; grid-row-end: 3;">
 
             <nav class="footer-nav">
                 <div class="footer-nav-col-group">
@@ -61,46 +55,31 @@
                                     <li><a href="#">Rent textbooks</a></li>
                                     <li><a href="#">Sell textbooks</a></li>
                                     <li><a href="#">Buy books</a></li>
-                                    <li><a href="#">Buy movies & TV</a></li>
-                                    <li><a href="#">Sell movies & TV</a></li>
-                                    <li><a href="#">Buy video games</a></li>
-                                    <li><a href="#">Sell video games</a></li>
                                 </ul>
                             </td>
                             <td>
                                 <ul class="footer-list" data-name="footer-list-care">
-                                    <li><a href="#">Textbook buyback help</a></li>
-                                    <li><a href="#">Contact us</a></li>
+                                    <li><a href="/store/contact">Contact us</a></li>
                                     <li><a href="#">Customer account home</a></li>
                                     <li><a href="#">Help & general policies</a></li>
-                                    <li><a href="#">Order status</a></li>
-                                    <li><a href="#">Returns</a></li>
-                                    <li><a href="#">Shipping information</a></li>
-                                    <li></li>
+                                    <li><a href="/store/resume">Order status</a></li>
                                 </ul>
                             </td>
                             <td>
                                 <ul class="footer-list" data-name="footer-list-seller">
-                                    <li><a href="#>Bookseller account home</a></li>
-                                    <li><a href="#">Bookseller FAQ</a></li>
+                                    <li><a href="#">Bookseller account home</a></li>
+                                    <li><a href="store/faq">Bookseller FAQ</a></li>
                                     <li><a href="#">Bookseller information</a></li>
-                                    <li><a href="#">Bookseller policy</a></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
+                                    <li><a href="/store/privacy">Bookseller policy</a></li>
                                 </ul>
                             </td>
                             <td>        
                                 <ul class="footer-list" data-name="footer-list-info">
                                     <li><a href="/info/about.aspx">About Bookstores.com</a></li>
-                                    <li><a href="#">Affiliates</a></li>
                                     <li><a href="#">Jobs</a></li>
                                     <li><a href="#">Participation Agreement</a></li>
                                     <li><a href="#">Partners</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Bookstores.com Marketplace</a></li>
+                                    <li></li>
                                 </ul>
                             </td>
                         </tr>

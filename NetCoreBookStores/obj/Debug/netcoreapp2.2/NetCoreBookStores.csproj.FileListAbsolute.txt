@@ -35,3 +35,6 @@
 /Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/Razor/Views/Store/Cadastre.cshtml.g.cs
 /Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/Razor/Views/Store/Cart.cshtml.g.cs
 /Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/Razor/Views/Store/Resume.cshtml.g.cs
+/Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/Razor/Views/Store/About.cshtml.g.cs
+/Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/Razor/Views/Store/Contact.cshtml.g.cs
+/Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/Razor/Views/Store/Privacy.cshtml.g.cs
