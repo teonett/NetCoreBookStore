@@ -28,5 +28,6 @@
     <Folder Include="Infra\Interface\" />
     <Folder Include="Infra\Repositories\" />
     <Folder Include="Models\Interface\" />
+    <Folder Include="Views\Store\" />
   </ItemGroup>
 </Project>

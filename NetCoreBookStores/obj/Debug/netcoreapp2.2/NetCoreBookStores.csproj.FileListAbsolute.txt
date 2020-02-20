@@ -9,7 +9,6 @@
 /Users/teontt/Projects/upload/bookstore/NetCoreBookStores/bin/Debug/netcoreapp2.2/NetCoreBookStores.pdb
 /Users/teontt/Projects/upload/bookstore/NetCoreBookStores/bin/Debug/netcoreapp2.2/NetCoreBookStores.Views.dll
 /Users/teontt/Projects/upload/bookstore/NetCoreBookStores/bin/Debug/netcoreapp2.2/NetCoreBookStores.Views.pdb
-/Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/NetCoreBookStores.csprojAssemblyReference.cache
 /Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/NetCoreBookStores.RazorAssemblyInfo.cache
 /Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/NetCoreBookStores.RazorAssemblyInfo.cs
 /Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/NetCoreBookStores.AssemblyInfoInputs.cache
@@ -23,6 +22,7 @@
 /Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs
 /Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.cshtml.g.cs
 /Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/Razor/Views/Store/Carrossel.cshtml.g.cs
 /Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.cshtml.g.cs
 /Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.cshtml.g.cs
 /Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/NetCoreBookStores.RazorTargetAssemblyInfo.cache
@@ -31,3 +31,7 @@
 /Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/NetCoreBookStores.dll
 /Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/NetCoreBookStores.pdb
 /Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/NetCoreBookStores.csproj.CopyComplete
+/Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/NetCoreBookStores.csprojAssemblyReference.cache
+/Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/Razor/Views/Store/Cadastre.cshtml.g.cs
+/Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/Razor/Views/Store/Cart.cshtml.g.cs
+/Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/Debug/netcoreapp2.2/Razor/Views/Store/Resume.cshtml.g.cs
