@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Casa do Código</title>
+    <title>@ViewData["Title"] - BookStore</title>
 
     <environment names="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -26,7 +26,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand"></a>
+                <a asp-area="" asp-controller="Store" asp-action="Carrossel" class="navbar-brand"></a>
             </div>
             <div class="navbar-collapse collapse">
             </div>
@@ -35,8 +35,80 @@
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; 2018 - Casa do Código</p>
+        <footer style="text-align:left">
+
+            <nav class="footer-nav">
+                <div class="footer-nav-col-group">
+                    <table>
+                        <tr align="center">
+                            <td style="width:25%">
+                                <button type="button" class="footer-list-title" data-name="footer-list-books" style="width:100%">New and used books</button>
+                            </td>
+                            <td style="width:25%">
+                                <button type="button" class="footer-list-title" data-name="footer-list-care" style="width:100%">Customer care</button>
+                            </tdstyle="width:25%">
+                            <td style="width:25%">
+                                <button type="button" class="footer-list-title" data-name="footer-list-seller" style="width:100%">Booksellers</button>
+                            </td>
+                            <td style="width:25%">
+                                <button type="button" class="footer-list-title" data-name="footer-list-info" style="width:100%">Bookstores.com info</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul class="footer-list" data-name="footer-list-books">
+                                    <li><a href="#">Buy textbooks</a></li>
+                                    <li><a href="#">Rent textbooks</a></li>
+                                    <li><a href="#">Sell textbooks</a></li>
+                                    <li><a href="#">Buy books</a></li>
+                                    <li><a href="#">Buy movies & TV</a></li>
+                                    <li><a href="#">Sell movies & TV</a></li>
+                                    <li><a href="#">Buy video games</a></li>
+                                    <li><a href="#">Sell video games</a></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="footer-list" data-name="footer-list-care">
+                                    <li><a href="#">Textbook buyback help</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                    <li><a href="#">Customer account home</a></li>
+                                    <li><a href="#">Help & general policies</a></li>
+                                    <li><a href="#">Order status</a></li>
+                                    <li><a href="#">Returns</a></li>
+                                    <li><a href="#">Shipping information</a></li>
+                                    <li></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="footer-list" data-name="footer-list-seller">
+                                    <li><a href="#>Bookseller account home</a></li>
+                                    <li><a href="#">Bookseller FAQ</a></li>
+                                    <li><a href="#">Bookseller information</a></li>
+                                    <li><a href="#">Bookseller policy</a></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </td>
+                            <td>        
+                                <ul class="footer-list" data-name="footer-list-info">
+                                    <li><a href="/info/about.aspx">About Bookstores.com</a></li>
+                                    <li><a href="#">Affiliates</a></li>
+                                    <li><a href="#">Jobs</a></li>
+                                    <li><a href="#">Participation Agreement</a></li>
+                                    <li><a href="#">Partners</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Bookstores.com Marketplace</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table> 
+                </div>
+            </nav>
+            <div style="text-align:center">
+                <p>&copy; 2 0 2 0   -   J o s e   T e o t o n i o   -   B o o k S t o r e   (teonett@gmail.com) </p>
         </footer>
     </div>
 
@@ -66,5 +138,6 @@
     </environment>
 
     @RenderSection("Scripts", required: false)
+
 </body>
 </html>
