@@ -30,7 +30,7 @@ namespace NetCoreBookStores.Controllers
             return View();
         }
 
-        public IActionResult Cadastre()
+        public IActionResult Account()
         {
             return View();
         }

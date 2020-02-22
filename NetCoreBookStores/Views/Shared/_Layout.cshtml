@@ -11,84 +11,61 @@
     </environment>
     <environment names="Staging,Production">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
-              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
     </environment>
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container" style="padding:25px">
+        <div class="container" style="padding:5px">
             <div class="navbar-header">
                 <a asp-area="" asp-controller="Store" asp-action="Carrossel" class="navbar-brand"></a>
+                <div class="row">
+                    <a class="nav-link" href="/store/carrossel">Carrossel</a>
+                    <a class="nav-link" href="/store/cart">Cart</a>
+                    <a class="nav-link" href="/store/resume">Resume</a>
+                    <a class="nav-link" href="/store/account">Account</a>
+                </div>
+                
+                
+                
             </div>
             <div class="navbar-collapse collapse">
+                
             </div>
         </div>
     </nav>
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer style="text-align:left; position:absolute; bottom:0; width:100%; padding-top: 25px; padding-bottom: 25px; grid-row-start: 2; grid-row-end: 3;">
 
-            <nav class="footer-nav">
-                <div class="footer-nav-col-group">
-                    <table>
-                        <tr align="center">
-                            <td style="width:25%">
-                                <button type="button" class="footer-list-title" data-name="footer-list-books" style="width:100%">New and used books</button>
-                            </td>
-                            <td style="width:25%">
-                                <button type="button" class="footer-list-title" data-name="footer-list-care" style="width:100%">Customer care</button>
-                            </tdstyle="width:25%">
-                            <td style="width:25%">
-                                <button type="button" class="footer-list-title" data-name="footer-list-seller" style="width:100%">Booksellers</button>
-                            </td>
-                            <td style="width:25%">
-                                <button type="button" class="footer-list-title" data-name="footer-list-info" style="width:100%">Bookstores.com info</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <ul class="footer-list" data-name="footer-list-books">
-                                    <li><a href="#">Buy textbooks</a></li>
-                                    <li><a href="#">Rent textbooks</a></li>
-                                    <li><a href="#">Sell textbooks</a></li>
-                                    <li><a href="#">Buy books</a></li>
-                                </ul>
-                            </td>
-                            <td>
-                                <ul class="footer-list" data-name="footer-list-care">
-                                    <li><a href="/store/contact">Contact us</a></li>
-                                    <li><a href="#">Customer account home</a></li>
-                                    <li><a href="#">Help & general policies</a></li>
-                                    <li><a href="/store/resume">Order status</a></li>
-                                </ul>
-                            </td>
-                            <td>
-                                <ul class="footer-list" data-name="footer-list-seller">
-                                    <li><a href="#">Bookseller account home</a></li>
-                                    <li><a href="store/faq">Bookseller FAQ</a></li>
-                                    <li><a href="#">Bookseller information</a></li>
-                                    <li><a href="/store/privacy">Bookseller policy</a></li>
-                                </ul>
-                            </td>
-                            <td>        
-                                <ul class="footer-list" data-name="footer-list-info">
-                                    <li><a href="/info/about.aspx">About Bookstores.com</a></li>
-                                    <li><a href="#">Jobs</a></li>
-                                    <li><a href="#">Participation Agreement</a></li>
-                                    <li><a href="#">Partners</a></li>
-                                    <li></li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </table> 
-                </div>
-            </nav>
-            <div style="text-align:center">
-                <p>&copy; 2 0 2 0   -   J o s e   T e o t o n i o   -   B o o k S t o r e   (teonett@gmail.com) </p>
+        <footer class="footer" align="center">
+
+            <table style="width:100%; text-align:center">
+                <tr style="text-align:center">
+                    <td><button type="button" class="footer-list-title" data-name="footer-list-books" style="width:100%"><a href="/store/carrossel">Buy Books</a></button></td>
+                    <td><button type="button" class="footer-list-title" data-name="footer-list-books" style="width:100%"><a href="/store/contact">Contact us</a></button></td>
+                    <td><button type="button" class="footer-list-title" data-name="footer-list-books" style="width:100%"><a href="/store/faq">Bookseller FAQ</a></button></td>
+                    <td><button type="button" class="footer-list-title" data-name="footer-list-books" style="width:100%"><a href="/store/about">About</a></button></td>
+                </tr>
+                <tr style="text-align:center">
+                    <td><button type="button" class="footer-list-title" data-name="footer-list-books" style="width:100%"><a href="/store/account">My Account</a></button></td>
+                    <td><button type="button" class="footer-list-title" data-name="footer-list-books" style="width:100%"><a href="/store/resume">Order status</a></button></td>
+                    <td><button type="button" class="footer-list-title" data-name="footer-list-books" style="width:100%"><a href="/store/privacy">Bookseller policy</a></button></td>
+                    <td><button type="button" class="footer-list-title" data-name="footer-list-books" style="width:100%"><a href="/store/jobs">Jobs</a></button></td>
+                </tr>
+            </table><br />
+
+            <p>&copy; 2 0 2 0   -   J o s e   T e o t o n i o   -   B o o k S t o r e   (teonett@gmail.com) </p>
+
         </footer>
+
     </div>
 
     <environment names="Development">

@@ -30,4 +30,8 @@
     <Folder Include="Models\Interface\" />
     <Folder Include="Views\Store\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Home\Privacy.cshtml" />
+    <Content Remove="Views\Home\Index.cshtml" />
+  </ItemGroup>
 </Project>
