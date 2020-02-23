@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/teontt/Projects/upload/bookstore/NetCoreBookStores/NetCoreBookStores.csproj": {}
+    "/Users/teontt/Projects/upload/NetCoreBookStore/NetCoreBookStores/NetCoreBookStores.csproj": {}
   },
   "projects": {
-    "/Users/teontt/Projects/upload/bookstore/NetCoreBookStores/NetCoreBookStores.csproj": {
+    "/Users/teontt/Projects/upload/NetCoreBookStore/NetCoreBookStores/NetCoreBookStores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/teontt/Projects/upload/bookstore/NetCoreBookStores/NetCoreBookStores.csproj",
+        "projectUniqueName": "/Users/teontt/Projects/upload/NetCoreBookStore/NetCoreBookStores/NetCoreBookStores.csproj",
         "projectName": "NetCoreBookStores",
-        "projectPath": "/Users/teontt/Projects/upload/bookstore/NetCoreBookStores/NetCoreBookStores.csproj",
+        "projectPath": "/Users/teontt/Projects/upload/NetCoreBookStore/NetCoreBookStores/NetCoreBookStores.csproj",
         "packagesPath": "/Users/teontt/.nuget/packages/",
-        "outputPath": "/Users/teontt/Projects/upload/bookstore/NetCoreBookStores/obj/",
+        "outputPath": "/Users/teontt/Projects/upload/NetCoreBookStore/NetCoreBookStores/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
