@@ -25,7 +25,7 @@ Compile application - dotnet rebuild
 Run the application - dotnet run
 
 --------------------------------------------------
-<b>The result after execute dotnet run<b>
+<h5>The result after execute dotnet run</h5>
 --------------------------------------------------
 Hosting environment: Development
 Now listening on: https://localhost:5001
