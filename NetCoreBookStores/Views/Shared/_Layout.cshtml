@@ -22,43 +22,67 @@
     </environment>
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container" style="padding:5px">
-            <div class="navbar-header">
-                <a asp-area="" asp-controller="Store" asp-action="Carrossel" class="navbar-brand"></a>
-                <div class="row">
-                    <a class="nav-link" href="/store/carrossel">Carrossel</a>
-                    <a class="nav-link" href="/store/cart">Cart</a>
-                    <a class="nav-link" href="/store/resume">Resume</a>
-                    <a class="nav-link" href="/store/account">Account</a>
-                </div>
-                
-                
-                
-            </div>
-            <div class="navbar-collapse collapse">
-                
-            </div>
-        </div>
-    </nav>
+
+    <div class="row">
+
+        <header class="header">
+
+            <br /><img src="/images/logo.png" width="15%" height="25%"/>
+
+            <button type="button" class="btn btn-warning btn-lg">
+                <a class="nav-link" href="/store/carrossel">
+                    <span class="spinner-grow spinner-grow-sm"></span>
+                    Carrossel
+                </a>
+            </button>
+            <button type="button" class="btn btn-warning btn-lg">
+                <a class="nav-link" href="/store/cart">
+                    <span class="spinner-grow spinner-grow-sm"></span>
+                    Cart
+                </a>
+            </button>
+            <button type="button" class="btn btn-warning btn-lg">
+                <a class="nav-link" href="/store/resume">
+                    <span class="spinner-grow spinner-grow-sm"></span>
+                    Resume
+                </a>
+            </button>
+            <button type="button" class="btn btn-warning btn-lg">
+                <a class="nav-link" href="/store/account">
+                    <span class="spinner-grow spinner-grow-sm"></span>
+                    Account
+                </a>
+            </button>
+
+        </header>
+
+        
+        
+    </div>
+    <hr />
     <div class="container body-content">
         @RenderBody()
-
-        <footer class="footer" align="center">
-
-            <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
-                <ul class="list-style-none d-flex flex-wrap ">
-                    <li class="mr-3">&copy; 2020 Jose Teotonio - BookStore (teonett@gmail.com)</li>
-                    <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="/store/privacy">Privacy</a></li>
-                    <li class="mr-3"><a data-ga-click="Footer, go to faq, text:faq" href="/store/faq">Faq</a></li>
-                    <li class="mr-3"><a href="/store/jobs" data-ga-click="Footer, go to jobs, text:jobs">Jobs</a></li>
-                    <li><a data-ga-click="Footer, go to about, text:about" href="/store/about">About</a></li>
-                </ul>
-            </div>
-
-        </footer>
-
     </div>
+    <br />
+    <hr />
+    <footer class="footer">
+        <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+            &copy; 2020 Jose Teotonio - BookStore (teonett@gmail.com)
+            <button type="button" class="btn btn-warning btn-sm">
+                <a data-ga-click="Footer, go to privacy, text:privacy" href="/store/privacy">Privacy</a>
+            </button>
+            <button type="button" class="btn btn-warning btn-sm">
+                <a data-ga-click="Footer, go to faq, text:faq" href="/store/faq">Faq</a>
+            </button>
+            <button type="button" class="btn btn-warning btn-sm">
+                <a href="/store/jobs" data-ga-click="Footer, go to jobs, text:jobs">Jobs</a>
+            </button>
+            <button type="button" class="btn btn-warning btn-sm">
+                <a data-ga-click="Footer, go to about, text:about" href="/store/about">About</a>
+            </button>
+        </div>
+
+    </footer>
 
     <environment names="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
@@ -72,16 +96,14 @@
                 asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
                 asp-fallback-test="window.jQuery"
                 crossorigin="anonymous"
-                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
-        </script>
+                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk"></script>
         <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
         <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
         <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
                 asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
                 asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
                 crossorigin="anonymous"
-                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
-        </script>
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"></script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
 
