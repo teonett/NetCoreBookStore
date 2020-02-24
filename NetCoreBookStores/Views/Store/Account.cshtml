@@ -2,81 +2,134 @@
     ViewData["Title"] = "Account";
 }
 
-<h1><b>My Account</b></h1><br />
+@model NetCoreBookStores.Domain.Entities.Account
 
-<div class="panel panel-default">
-    <div class="panel-body">
+<h1><b>My Account</b></h1>
+<br />
 
-        <divl class="row" style="padding-left:15px">
+<form asp-action="resumo" method="post">
 
-            <label for="nameAccount" style="width: 100px; text-align:left">Name</label>
-            <input type="text" class="form-control" id="nomeCliente" placeholder="Ex.: Jhon Doe" style="width:500px">
+    <div class="panel panel-default" aling="center" style="padding-left:25px">
 
-            <label for="nameAccount" style="width: 100px; text-align:left">E-mail</label>
-            <input type="email" class="form-control" id="email" placeholder="jhon.doe@mail.com" style="width:400px">
+        <div class="panel-body">
 
-    </div><br />
+            <div class="row">
+                <table>
+                    <tr>
+                        <td style="width:675px">Name</td>
+                        <td>E-mail</td>
+                    </tr>
+                </table>
+            </div>
 
-    <div class="row" style="padding-left:15px">
+            <div class="row">
 
-        <label for="nameAccount" style="width: 100px; text-align:left">Address</label>
-        <input type="text" class="form-control" id="endereco" placeholder="123 Street" style="width:500px">
+                <input type="text" class="form-control" id="nomeCliente" placeholder="Jhon Doe" style="width:650px" asp-for="@Model.Nome">
+                <span asp-validation-for="@Model.Nome" class="text-danger"></span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-        <label for="nameAccount" style="width: 100px; text-align:left"> Complement</label>
-        <input type="text" class="form-control" id="complemento" placeholder="4 floor" style="width:400px">
+                <input type="text" class="form-control" id="email" placeholder="jhon.doe@mail.com" style="width:400px" asp-for="@Model.Telefone">
+                <span asp-validation-for="@Model.Email" class="text-danger"></span>
 
-    </div><br />
+            </div><br />
 
-    <div class="row" style="padding-left:15px">
+            <div class="row">
+                <table>
+                    <tr>
+                        <td style="width:675px">Address</td>
+                        <td>Complement</td>
+                    </tr>
+                </table>
+            </div>
 
-        <label for="nameAccount" style="width: 100px; text-align:left">District</label>
-        <input type="text" class="form-control" id="bairro" placeholder="Doe Ville" style="width:500px">
+            <div class="row">
 
-        <label for="nameAccount" style="width: 100px; text-align:left"> City</label>
-        <input type="text" class="form-control" id="municipio" placeholder="Dallas" style="width:400px">
+                <input type="text" class="form-control" id="endereco" placeholder="123 Street" style="width:650px" asp-for="@Model.Endereco">
+                <span asp-validation-for="@Model.Endereco" class="text-danger"></span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-    </div><br />
+                <input type="text" class="form-control" id="complemento" placeholder="4 floor" style="width:400px" asp-for="@Model.Complemento">
+                <span asp-validation-for="@Model.Complemento" class="text-danger"></span>
 
-    <div class="row" style="padding-left:15px">
+            </div><br />
 
-        <label for="nameAccount" style="width: 100px; text-align:left"> State</label>
-        <select class="form-control single-select" name="UF" style="width:200px">
-            <option selected value="">[Choose]</option>
-            <option value="AC">Acre</option>
-            <option value="AL">Alagoas</option>
-            <option value="AP">Amapá</option>
-            <option value="AM">Amazonas</option>
-            <option value="BA">Bahia</option>
-            <option value="CE">Ceará</option>
-            <option value="DF">Distrito Federal</option>
-            <option value="ES">Espírito Santo</option>
-            <option value="GO">Goiás</option>
-            <option value="MA">Maranhão</option>
-            <option value="MT">Mato Grosso</option>
-            <option value="MS">Mato Grosso do Sul</option>
-            <option value="MG">Minas Gerais</option>
-            <option value="PA">Pará</option>
-            <option value="PB">Paraíba</option>
-            <option value="PR">Paraná</option>
-            <option value="PE">Pernambuco</option>
-            <option value="PI">Piauí</option>
-            <option value="RJ">Rio de Janeiro</option>
-            <option value="RN">Rio Grande do Norte</option>
-            <option value="RS">Rio Grande do Sul</option>
-            <option value="RO">Rondônia</option>
-            <option value="RR">Roraima</option>
-            <option value="SC">Santa Catarina</option>
-            <option value="SP">São Paulo</option>
-            <option value="SE">Sergipe</option>
-            <option value="TO">Tocantins</option>
-        </select>
+            <div class="row">
+                <table>
+                    <tr>
+                        <td style="width:675px">District</td>
+                        <td>City</td>
+                    </tr>
+                </table>
+            </div>
 
-        <label for="cep" style="width: 100px; text-align:left"> Zip Code</label>
-        <input type="text" class="form-control" id="cep" placeholder="99999-999" style="width:200px">
+            <div class="row">
 
-        <label for="nameAccount" style="width: 100px; text-align:left">Phone</label>
-        <input type="text" class="form-control" id="telefone" placeholder="+55(99)99999-9999" style="width:200px">
+                <input type="text" class="form-control" id="bairro" placeholder="Doe Ville" style="width:650px" asp-for="@Model.Bairro">
+                <span asp-validation-for="@Model.Bairro" class="text-danger"></span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-    </div><br />
+                <input type="text" class="form-control" id="municipio" placeholder="Dallas" style="width:400px" asp-for="@Model.Municipio">
+                <span asp-validation-for="@Model.Municipio" class="text-danger"></span>
+
+            </div><br />
+
+            <div class="row">
+                <table>
+                    <tr>
+                        <td style="width:450px">State</td>
+                        <td style="width:225px">Zip Code</td>
+                        <td>Phone</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="row">
+
+                <select class="form-control single-select" name="UF" style="width:425px" asp-for="@Model.UF">
+                    <option selected value="">[Choose]</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+                <span asp-validation-for="@Model.UF" class="text-danger"></span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <input type="text" class="form-control" id="cep" placeholder="99999-999" style="width:200px" asp-for="@Model.CEP">
+                <span asp-validation-for="@Model.CEP" class="text-danger"></span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <input type="text" class="form-control" id="telefone" placeholder="+55(99)99999-9999" style="width:200px">
+                <span asp-validation-for="@Model.Telefone" class="text-danger"></span>
+
+            </div><br />
+
+        </div>
 
     </div>
+
+</form>
+
