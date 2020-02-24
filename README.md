@@ -18,13 +18,13 @@ You should have received a copy of the GNU General Public License along with thi
 Open the terminal and type :
 git clone https://github.com/teonett/NetCoreBookStore.git
 
-<h5>1st Steps</h5>
+<h4>1st Steps</h4>
 You will need to type the commands below to download the dependencies, compile and run the application
 Dawnload de dependencies - dotnet restore
 Compile application - dotnet rebuild
 Run the application - dotnet run
 
-<h5>The result after execute dotnet run</h5>
+<h4>The result after execute dotnet run</h4>
 
 Hosting environment: Development
 
