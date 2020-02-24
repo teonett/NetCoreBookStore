@@ -2,8 +2,7 @@
 
 <p>This a basic web application using MVC + ASP .Net Core 2.2 + SQLite + C# builded in Visual Studio 2019 - Mac </p>
 
-<h4>Copyright (C) 2020 Jose Teotonio (teonett@gmail.com)
-</h4>
+<h4>Copyright (C) 2020 Jose Teotonio (teonett@gmail.com)</h4>
 <p>
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
@@ -19,9 +18,10 @@ Open the terminal and type :
 git clone https://github.com/teonett/NetCoreBookStore.git
 
 <h4>1st Steps</h4>
-You will need to type the commands below to download the dependencies, compile and run the application
+You will need to type the commands below to download the dependencies, compile, create database and run the application
 Dawnload de dependencies - dotnet restore
 Compile application - dotnet rebuild
+Create Database - dotnet ef database update
 Run the application - dotnet run
 
 <h4>The result after execute dotnet run</h4>
