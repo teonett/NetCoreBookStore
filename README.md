@@ -24,9 +24,8 @@ Dawnload de dependencies - dotnet restore
 Compile application - dotnet rebuild
 Run the application - dotnet run
 
---------------------------------------------------
 <h5>The result after execute dotnet run</h5>
---------------------------------------------------
+
 Hosting environment: Development
 Now listening on: https://localhost:5001
 Now listening on: http://localhost:5000
