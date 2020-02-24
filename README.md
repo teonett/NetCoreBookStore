@@ -27,10 +27,12 @@ Run the application - dotnet run
 <h5>The result after execute dotnet run</h5>
 
 Hosting environment: Development
-Now listening on: https://localhost:5001
-Now listening on: http://localhost:5000
-Application started. Press Ctrl+C to shut down
 
+Now listening on: https://localhost:5001
+
+Now listening on: http://localhost:5000
+
+Application started. Press Ctrl+C to shut down
   
 After this steps you need openthe browser and type the url : https://localhost:5001
 
